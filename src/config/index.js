@@ -1,0 +1,12 @@
+// export const backendUrl = process.env.REACT_APP_BACKEND_URL;
+// export const imageContainer = process.env.REACT_APP_IMAGE_CONTAINER;
+// export const apiUrl = backendUrl + "/api";
+// export const socketPath = "/api/socket.io";
+// export const phoneCode = "02";
+// export const imageUrl = "https://mezostore.blob.core.windows.net" + imageContainer;
+// export const avatarUrl = "https://mezostore.blob.core.windows.net/avatars/";
+// export const defaultLanguage = "ar";
+// export const imageUrlWithoutContanier = "https://mezostore.blob.core.windows.net";
+// export const playStoreHref = "https://play.google.com/store/apps/details?id=at.mazad.app";
+// export const AppleHref = 'https://apple.co/2SHG7Tx';
+export const apiUrll = "https://api-app-host.azurewebsites.net/api/v1/restaurant-user";
