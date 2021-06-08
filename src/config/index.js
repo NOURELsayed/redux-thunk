@@ -9,4 +9,4 @@
 // export const imageUrlWithoutContanier = "https://mezostore.blob.core.windows.net";
 // export const playStoreHref = "https://play.google.com/store/apps/details?id=at.mazad.app";
 // export const AppleHref = 'https://apple.co/2SHG7Tx';
-export const apiUrll = "https://api-app-host.azurewebsites.net/api/v1/restaurant-user";
+export const apiUrll = "https://api-app-host.azurewebsites.net/api/v1";

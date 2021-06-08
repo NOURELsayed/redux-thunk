@@ -2,6 +2,7 @@ import { combineReducers } from 'redux';
 
 import { authConstants } from '../constants';
 import { authentication } from './auth.reducer';
+import { restaurantReducer } from './restaurant.reducer';
 import { alert } from './alert.reducer';
 
 
@@ -9,6 +10,7 @@ import { alert } from './alert.reducer';
 const appReducer = combineReducers({
   authentication,
   alert,
+  restaurantReducer
 });
 
 const rootReducer = (state, action) => {

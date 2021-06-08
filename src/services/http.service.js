@@ -27,5 +27,5 @@ axios.interceptors.response.use(null, async function(error) {
 });
 
 function setJwt(jwt) {
-  axios.defaults.headers.common = { 'Authorization': `bearer ${jwt}`, 'lon': '30.0054807', 'lat': '31.4655542' }
+  axios.defaults.headers.common = { 'Authorization': `bearer ${jwt}` }
 }

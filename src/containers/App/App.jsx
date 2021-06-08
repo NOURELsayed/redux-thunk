@@ -3,6 +3,7 @@
 import React, {Component} from 'react';
 import {connect} from 'react-redux'
 import {authActions} from '../../actions'
+import {restaurantActions} from '../../actions'
 
 
 
@@ -58,7 +59,8 @@ function mapState(state) {
 
 const actionCreators = {
   login: authActions.login,
-
+  get: restaurantActions.get,
+  getAll: restaurantActions.getAll,
 };
 const connectedApp = connect(mapState, actionCreators)(AppContainer);
 export {connectedApp as App};
